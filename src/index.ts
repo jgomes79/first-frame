@@ -56,10 +56,7 @@ app.post('/:id', async (c) => {
     }
 
     const dataId = id + 1;
-    console.log('dataId', dataId);
-
     const framePostUrl = c.req.url.replace('http://', 'https://').slice(0, c.req.url.lastIndexOf('/') + 1) + "/" + dataId.toString();
-    console.log(framePostUrl);
 
     return c.html(html`
       <html lang="en">
