@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/3d6665d5-342a-466a-a369-662f59341e29/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/givitnft-farcaster-frame",
+    "appService.deploySubpath": "."
+}
